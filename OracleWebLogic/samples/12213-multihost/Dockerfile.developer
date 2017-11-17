@@ -30,7 +30,9 @@ FROM oracle/serverjre:8
 
 # Maintainer
 # ----------
-MAINTAINER Monica Riccelli <monica.riccelli@oracle.com>
+# This Docker file is based on the other dockerfiles maintained by Monica Riccelli
+# In contrast to the other ones, this Dockerfile installs the software and creates a domain in one single step
+MAINTAINER Thomas Robert <thomas.robert@oracle.com>
 
 # Common environment variables required for this build (do NOT change)
 # --------------------------------------------------------------------
